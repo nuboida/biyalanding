@@ -1,3 +1,4 @@
+import Benefits from "@/components/benefits";
 import MainAbout from "@/components/main-about";
 import MainHeader from "@/components/main-header";
 import MainHero from "@/components/main-hero";
@@ -8,6 +9,7 @@ export default function Home() {
       <MainHeader />
       <MainHero />
       <MainAbout />
+      <Benefits />
     </>
   );
 }

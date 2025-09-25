@@ -3,6 +3,7 @@ import Image from "next/image";
 const MainAbout = () => {
   return (
     <>
+    <div className="mb-5">
       <div className="bg-[url('/about-bg.png')] px-6 bg-cover h-screen">
         <div className="flex justify-between items-center container-xl pt-50">
           <div className="pb-10">
@@ -134,6 +135,7 @@ const MainAbout = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   )
 }
