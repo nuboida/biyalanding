@@ -1,7 +1,7 @@
 const MainHero = () => {
   return (
-    <div className="pt-25 h-screen font-mono font-bold border-b-2">
-      <div className="flex justify-center h-full pt-20">
+    <div className="mt-25 h-screen font-mono font-bold">
+      <div className="flex justify-center h-full pt-10">
         <div className="flex flex-col items-center">
           <h1 className="text-9xl">EASY</h1>
           <div className="bubble">

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const MainHeader = () => {
     return (
-      <header className="fixed overflow-hidden z-20 w-full">
-        <nav className="border-b-2 bg-white/50 backdrop-blur-2xl flex items-center py-6 px-10 mr-auto max-lg:hidden container-xl">
+      <header className="fixed overflow-hidden top-0 z-20 w-full">
+        <nav className="bg-white/50 backdrop-blur-2xl flex items-center py-6 px-10 mr-auto max-lg:hidden container-xl">
         {/* Logo Start */}
           <div className="w-full flex items-center justify-between lg:w-auto mr-20">
             <Link href="/">
@@ -26,7 +26,7 @@ const MainHeader = () => {
               <ul className="space-y-6 tracking-wide text-base lg:text-lg lg:flex lg:space-y-0 bg-[#0D67AA]/15 py-2 px-2">
                 <Link href={"/merchant"}>
                   <span className="bg-white text-lg text-black px-4 py-1 font-bold">
-                    Individuals
+                    Biyabot
                   </span>
                 </Link>
                 <Link href={"/merchant"}>
