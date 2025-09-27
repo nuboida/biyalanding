@@ -111,8 +111,8 @@ const MerchantStartSection = () => {
                       <div className="w-8/12">
                         <h1 className="text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
                         <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
-                        <div className="mt-5">
-                          <span className="bg-accent1 text-white py-2 px-6 font-sans">
+                        <div className="mt-10">
+                          <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
                             Start now
                           </span>
                         </div>

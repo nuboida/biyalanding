@@ -45,3 +45,11 @@ body {
     margin-left: -20px;
     position: absolute;
 }
+
+.businessImageClip {
+  clip-path: polygon(25% 0, 100% 0%, 100% 75%, 100% 99%, 92% 100%, 72% 74%, 0% 75%);
+}
+
+.clipBg {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 89% 100%, 85% 92%, 0% 92%);
+}

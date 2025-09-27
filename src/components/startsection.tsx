@@ -104,7 +104,7 @@ const StartSection = () => {
           </div>
         </div>
 
-        <div className="px-36 bg-[#0D67AA] pb-30">
+        <div className="px-36 bg-[#0D67AA] pb-30 clipBg">
           <div className="bg-primary">
             <div className="flex justify-between items-center">
               <div className="pb-10 w-1/2 pl-20">
