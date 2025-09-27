@@ -1,6 +1,6 @@
 const MainHero = () => {
   return (
-    <div className="mt-25 h-screen font-mono font-bold">
+    <div className="mt-25 h-screen font-mono font-bold px-10">
       <div className="flex justify-center h-full pt-10">
         <div className="flex flex-col items-center">
           <h1 className="text-9xl">EASY</h1>

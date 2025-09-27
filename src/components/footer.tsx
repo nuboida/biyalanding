@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="my-20 px-20">
+    <section className="my-20 px-10">
       <div className="flex mb-10">
         <div>
           <Image

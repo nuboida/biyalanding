@@ -4,7 +4,7 @@ const StartSection = () => {
   return (
     <>
       <section className="mb-5">
-        <div className="bg-[url('/startsectionbg.png')] px-6 bg-cover">
+        <div className="bg-[url('/startsectionbg.png')] px-10 bg-cover">
           <div className="pt-50 text-white w-5/12">
             <h1 className="text-8xl font-mono">Pay The Smart Way</h1>
             <p>Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
