@@ -21,8 +21,8 @@ const Offerings = () => {
                 <p className="mb-5">
                   No apps to download, no complicated steps—just instant, hassle-free service whenever you need it. Plus, it works seamlessly across your favorite platforms like Telegram, Slack, Messenger, Skype, or your browser.
                 </p>
-                <div className="mt-5">
-                  <span className="bg-accent1 text-white py-2 px-6 font-sans">
+                <div className="mt-10">
+                  <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
                     Get Started
                   </span>
                 </div>

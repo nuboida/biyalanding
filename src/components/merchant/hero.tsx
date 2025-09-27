@@ -10,8 +10,8 @@ const Hero = () => {
           <p className="w-8/12 text-lg">
             Receive payments effortlessly—no apps, no long processes. Just send a request, let your customer approve it, and get paid instantly through their favourite chat platform.
           </p>
-          <div className="mt-5">
-              <span className="bg-accent1 text-white py-2 px-6 font-sans">
+          <div className="mt-10">
+              <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
                 Get Started
               </span>
           </div>

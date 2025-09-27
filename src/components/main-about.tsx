@@ -3,33 +3,35 @@ import Image from "next/image";
 const MainAbout = () => {
   return (
     <>
-    <div className="mb-5">
-      <div className="bg-[url('/about-bg.png')] px-10 bg-cover h-screen">
+    <div className="mb-20">
+      <div className="bg-[url('/about-bg.png')] px-20 bg-cover h-screen">
         <div className="flex justify-between items-center container-xl pt-50">
-          <div className="pb-10">
+          <div className="pb-10 w-1/2 flex flex-col justify-between gap-5">
             <h1 className="text-9xl font-mono">What is Biyabot</h1>
-            <h6 className="font-semibold mb-3.5">BiyaBot is a payment platform designed to simplify your life.</h6>
-            <p className="w-5/12">
+            <h6 className="font-semibold mb-3.5 text-lg">BiyaBot is a payment platform designed to simplify your life.</h6>
+            <p className="w-8/12">
               Whether you’re topping up your phone, paying a bill, or managing bulk recharges for your business, you can do it all with just a chat. By becoming a merchant you can receive payments from your customers.
             </p>
-            <div className="mt-5">
-              <span className="bg-accent1 text-white py-2 px-6 font-sans">
+            <div className="mt-10">
+              <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
                 Get Started
               </span>
             </div>
           </div>
-          <div>
-            <Image
-              src={"/about-image.png"}
-              alt="image"
-              width={586}
-              height={535}
-              className="w-auto h-auto"
-            />
+          <div className="w-1/2 flex justify-end items-center">
+            <div className="w-8/12">
+              <Image
+                src={"/about-item.svg"}
+                alt="image"
+                width={586}
+                height={535}
+                className="w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="bg-primary">
+      <div className="bg-primary pt-30">
         <div className="flex flex-col items-center">
           <h1 className="text-9xl font-mono">How We Make Life Easier</h1>
           <p className="w-4/12 text-center">We offer a wide range of services designed to simplify transactions for both individuals and businesses. From managing bulk transactions to helping merchants get paid instantly, Biya ensures every process is seamless, secure, and stress-free.</p>

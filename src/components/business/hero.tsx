@@ -10,8 +10,8 @@ const Hero = () => {
           <p className="w-6/12 text-lg">
             We help you manage and automate data and airtime and data subscriptions with Biya for business.
           </p>
-          <div className="mt-5">
-              <span className="bg-accent1 text-white py-2 px-6 font-sans">
+          <div className="mt-10">
+              <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
                 Get Started
               </span>
           </div>

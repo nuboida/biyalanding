@@ -31,21 +31,21 @@ const MainHeader = () => {
             <div className="mt-6 dark:text-body md:-ml-4 lg:pr-4 lg:mt-0">
               <ul className="space-y-6 tracking-wide text-base lg:text-lg lg:flex lg:space-y-0 bg-[#0D67AA]/15 py-2 px-2">
                 <Link href={"/"}>
-                  <span className={clsx("text-lg text-black px-4 py-1",
+                  <span className={clsx("text-lg text-black px-6 py-1",
                     path === "/" && "bg-white font-bold"
                   )}>
                     Biyabot
                   </span>
                 </Link>
                 <Link href={"/business"}>
-                  <span className={clsx("text-lg text-black px-4 py-1",
+                  <span className={clsx("text-lg text-black px-6 py-1",
                     path.includes("/business") && "bg-white font-bold"
                   )}>
                     Business
                   </span>
                 </Link>
                 <Link href={"/merchant"}>
-                  <span className={clsx("text-lg text-black px-4 py-1",
+                  <span className={clsx("text-lg text-black px-6 py-1",
                     path.includes("/merchant") && "bg-white font-bold"
                   )}>
                     Merchant
