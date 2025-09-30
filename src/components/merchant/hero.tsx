@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="my-25 px-10 h-screen">
-      <div className="flex items-center justify-between h-full">
-        <div className="w-1/2">
-          <h1 className="text-8xl w-10/12 font-semibold font-mono">GET PAID <span className="text-[#FDA813]">INSTANTLY</span> WITH JUST A CHAT.
+    <section className="my-25 px-4 sm:px-10 min-h-screen flex items-center">
+      <div className="flex flex-col md:flex-row items-center justify-between h-full">
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h1 className="text-6xl lg:text-8xl w-full lg:w-10/12 font-semibold font-mono">GET PAID <span className="text-[#FDA813]">INSTANTLY</span> WITH JUST A CHAT.
           </h1>
-          <p className="w-8/12 text-lg">
+          <p className="w-full md:w-10/12 lg:w-8/12 text-lg mx-auto md:mx-0">
             Receive payments effortlessly—no apps, no long processes. Just send a request, let your customer approve it, and get paid instantly through their favourite chat platform.
           </p>
           <div className="mt-10">
@@ -16,8 +16,8 @@ const Hero = () => {
             </span>
           </div>
         </div>
-        <div className="w-1/2 relative">
-          <div className="absolute -top-10 z-10 left-30">
+        <div className="w-full md:w-1/2 relative mt-10 md:mt-0">
+          <div className="absolute -top-10 z-10 left-30 hidden lg:block">
             <svg width="103" height="99" viewBox="0 0 103 99" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_109_8749)">
                 <path d="M78.3865 9.90886L95.5873 57.6686L62.9143 70.3261L52.6418 92.1005L50.2372 92.9019L44.144 77.0512L25.0674 83.8868L7.86658 36.1271L78.3865 9.90886Z" fill="#FDA813" />
@@ -33,7 +33,7 @@ const Hero = () => {
               </defs>
             </svg>
           </div>
-          <div className="absolute bottom-3 z-10 right-10">
+          <div className="absolute bottom-3 z-10 right-10 hidden lg:block">
             <svg width="271" height="258" viewBox="0 0 271 258" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_109_8756)">
                 <path d="M223.859 62.9402L243.772 147.169L113.648 179.818L92.1215 214.683L87.902 215.574L80.6427 187.542L47.1144 195.393L27.1962 111.156L223.859 62.9402Z" fill="#A1D0E6" />

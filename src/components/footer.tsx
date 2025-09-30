@@ -3,27 +3,28 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="my-20 px-10">
-      <div className="flex mb-10">
+    <section className="px-4 sm:px-10">
+      <div className="flex flex-col sm:flex-row items-center mb-10">
         <div>
           <Image
             src={"/biyaicon.svg"}
             alt="biya icon"
-            height={166}
-            width={244}
+            height={100}
+            width={150}
+            className="h-auto"
           />
         </div>
-        <h1 className="text-8xl font-semibold">Biyabot</h1>
+        <h1 className="text-5xl sm:text-6xl md:text-8xl font-semibold text-center sm:text-left">Biyabot</h1>
       </div>
-      <div className="flex items-stretch">
-        <div className="mr-auto">
-          <h5 className="text-lg font-semibold mb-5">Be the first to know when we open up applications</h5>
-          <div>
-            <input className="border px-10 py-2" placeholder="Email Address" />
+      <div className="flex flex-col md:flex-row items-start md:items-stretch gap-10">
+        <div className="w-full md:w-auto mr-auto">
+          <h5 className="text-lg font-semibold mb-5 text-center md:text-left">Be the first to know when we open up applications</h5>
+          <div className="flex flex-nowrap">
+            <input className="border px-4 sm:px-10 py-2 w-full" placeholder="Email Address" />
             <button className="py-2 px-4 bg-black text-white">Subscribe</button>
           </div>
         </div>
-        <div className="ml-20">
+        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Company</h5>
           <div>
             <Link href={"#"}>Biyabot</Link>
@@ -35,7 +36,7 @@ const Footer = () => {
             <Link href={"#"}>Biya for business</Link>
           </div>
         </div>
-        <div className="ml-20">
+        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Legal</h5>
           <div>
             <Link href={"#"}>Terms and Conditions</Link>
@@ -44,7 +45,7 @@ const Footer = () => {
             <Link href={"#"}>Privacy Policy</Link>
           </div>
         </div>
-        <div className="ml-20">
+        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Contact Us</h5>
           <div className="flex items-center gap-2">
             <div>

@@ -9,6 +9,7 @@ import StartSection from "@/components/startsection";
 export default function Home() {
   return (
     <>
+    <div className="container-xl">
       <MainHeader />
       <MainHero />
       <MainAbout />
@@ -16,6 +17,7 @@ export default function Home() {
       <Offerings />
       <StartSection />
       <Footer />
+    </div>
     </>
   );
 }

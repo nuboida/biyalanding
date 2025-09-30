@@ -16,6 +16,10 @@
   --color-accent1: #17235D;
   --font-sans: var(--font-darker-grotesque);
   --font-mono: var(--font-mango-grotesque);
+  --container-sm: 2rem;
+  --container-lg: 4rem;
+  --container-xl: 5rem;
+  --container-2xl: 6rem;
 }
 
 body {
@@ -53,3 +57,24 @@ body {
 .clipBg {
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 89% 100%, 85% 92%, 0% 92%);
 }
+
+.browser:hover svg path {
+  fill: white;
+}
+
+.slack:hover svg path {
+  fill: white;
+}
+
+.messenger:hover svg path {
+  fill: white;
+}
+
+.skype:hover svg path {
+  fill: white;
+}
+
+.telegram:hover svg path {
+  fill: white;
+}
+
