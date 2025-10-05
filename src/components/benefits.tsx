@@ -4,7 +4,7 @@ const Benefits = () => {
   return (
     <div className="my-20 relative h-screen">
       <div className="flex flex-col justify-center items-center h-full">
-        <h1 className="text-6xl md:text-9xl font-mono text-center">Why Biyabot</h1>
+        <h1 className="text-6xl md:text-9xl 2xl:text-[170px] font-mono text-center">Why Biyabot</h1>
       </div>
         <div className="w-full absolute top-15 left-56 sm:w-1/2 md:w-1/3 lg:w-1/4">
           <Image

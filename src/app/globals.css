@@ -16,10 +16,7 @@
   --color-accent1: #17235D;
   --font-sans: var(--font-darker-grotesque);
   --font-mono: var(--font-mango-grotesque);
-  --container-sm: 2rem;
-  --container-lg: 4rem;
-  --container-xl: 5rem;
-  --container-2xl: 6rem;
+  --container: 1140px;
 }
 
 body {
@@ -37,6 +34,7 @@ body {
   position: relative;
   background: #FDA813;
   transform: rotate(348deg);
+  z-index: 50;
 }
 
 .bubble::after {
