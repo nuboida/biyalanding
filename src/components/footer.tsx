@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="px-4 sm:px-10 pb-40 pt-10">
+    <section className="container mx-auto px-4 sm:px-10 pb-40 pt-10">
       <div className="flex flex-col sm:flex-row items-center mb-10">
         <div>
           <Image
@@ -24,7 +24,7 @@ const Footer = () => {
             <button className="py-2 px-4 bg-black text-white">Subscribe</button>
           </div>
         </div>
-        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
+        <div className="flex flex-col gap-1 w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Company</h5>
           <div>
             <Link href={"#"}>Biyabot</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
             <Link href={"#"}>Biya for business</Link>
           </div>
         </div>
-        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
+        <div className="flex flex-col gap-1 w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Legal</h5>
           <div>
             <Link href={"#"}>Terms and Conditions</Link>
@@ -45,7 +45,7 @@ const Footer = () => {
             <Link href={"#"}>Privacy Policy</Link>
           </div>
         </div>
-        <div className="w-full md:w-auto md:ml-10 mt-10 md:mt-0">
+        <div className="flex flex-col gap-1 w-full md:w-auto md:ml-10 mt-10 md:mt-0">
           <h5 className="font-semibold">Contact Us</h5>
           <div className="flex items-center gap-2">
             <div>

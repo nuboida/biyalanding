@@ -4,11 +4,10 @@ import { EmblaOptionsType } from "embla-carousel";
 import Image from "next/image";
 import EmblaCarousel from "./Carousel/EmblaCarousel";
 
-const OPTIONS: EmblaOptionsType = { containScroll: false }
-const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+
 
 const MainAbout = () => {
+  const OPTIONS: EmblaOptionsType = { containScroll: false }
   return (
     <>
       <div className="mb-20 bg-[url('/about-bg.png')] bg-cover">
@@ -46,7 +45,7 @@ const MainAbout = () => {
               <p className="w-full md:w-6/12 lg:w-4/12 text-center">We offer a wide range of services designed to simplify transactions for both individuals and businesses. From managing bulk transactions to helping merchants get paid instantly, Biya ensures every process is seamless, secure, and stress-free.</p>
             </div>
 
-            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+            <EmblaCarousel options={OPTIONS} />
 
           </div>
         </div>

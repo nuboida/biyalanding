@@ -8,8 +8,8 @@ const StartSection = () => {
 
           <div className=" px-4 sm:px-36 py-20 md:pt-40">
             <div className="text-white w-full md:w-8/12 lg:w-5/12 text-center md:text-left pt-20">
-              <h1 className="text-6xl md:text-8xl font-mono">Pay The Smart Way</h1>
-              <p className="w-9/12">Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
+              <h1 className="text-6xl md:text-8xl text-nowrap font-mono">Pay The Smart Way</h1>
+              <p className="w-10/12">Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
             </div>
           </div>
           <div className="bg-[#0D67AA] bg-cover px-4 mb-30 sm:px-6">
@@ -105,7 +105,7 @@ const StartSection = () => {
               <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="pb-10 w-full lg:w-1/2 pl-4 sm:pl-10 md:pl-20 text-center lg:text-left">
                   <div className="w-full lg:w-8/12">
-                    <h1 className="text-5xl md:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
+                    <h1 className="text-5xl lg:text-6xl 2xl:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
                     <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
                     <div className="mt-10">
                       <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">

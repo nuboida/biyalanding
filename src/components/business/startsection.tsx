@@ -11,7 +11,7 @@ const BusinessStartSection = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between px-4">
+          <div className="flex items-center justify-between px-4 sm:px-36">
             <div className="flex flex-col w-1/2">
               <div className="flex gap-2 mb-10">
                 <div className="bg-white p-3 w-[40px] h-[40px]"></div>
@@ -58,7 +58,7 @@ const BusinessStartSection = () => {
               <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="pb-10 w-full lg:w-1/2 pl-4 sm:pl-10 md:pl-20 text-center lg:text-left">
                   <div className="w-full lg:w-8/12">
-                    <h1 className="text-5xl md:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
+                    <h1 className="text-6xl 2xl:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
                     <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
                     <div className="mt-10">
                       <span className="bg-accent1 text-white py-3 px-8 font-sans">

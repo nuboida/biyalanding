@@ -24,7 +24,7 @@ const MainHero = () => {
       </div>
       <div className="flex justify-center h-full pt-14">
         <div className="flex flex-col items-center text-center">
-          <h1 className="text-6xl sm:text-7xl md:text-8xl 2xl:text-[180px] relative">
+          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-[180px] relative">
             <span className="absolute -top-9 -right-10">
               <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_109_8646)">
