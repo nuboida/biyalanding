@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const MainHero = () => {
   return (
     <section className="mt-25 h-screen font-mono font-bold px-4 sm:px-10 relative">

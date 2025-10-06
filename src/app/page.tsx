@@ -6,7 +6,6 @@ import MainHero from "@/components/main-hero";
 import Offerings from "@/components/offerings";
 import StartSection from "@/components/startsection";
 import { EmblaOptionsType } from 'embla-carousel'
-import Autoplay from "embla-carousel-autoplay";
 
 const OPTIONS: EmblaOptionsType = { containScroll: false, loop: true }
 const SLIDE_COUNT = 5

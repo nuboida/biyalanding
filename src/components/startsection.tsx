@@ -3,13 +3,13 @@ import Image from "next/image";
 const StartSection = () => {
   return (
     <>
-      <section className="mb-5 bg-[url('/startsectionbg.png')] bg-cover">
+      <section id="startSection" className="mb-5 bg-[url('/startsectionbg.png')] bg-cover">
         <div className="container mx-auto">
 
           <div className=" px-4 sm:px-36 py-20 md:pt-40">
             <div className="text-white w-full md:w-8/12 lg:w-5/12 text-center md:text-left pt-20">
               <h1 className="text-6xl md:text-8xl font-mono">Pay The Smart Way</h1>
-              <p className="w-7/12">Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
+              <p className="w-9/12">Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
             </div>
           </div>
           <div className="bg-[#0D67AA] bg-cover px-4 mb-30 sm:px-6">

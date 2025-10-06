@@ -3,7 +3,6 @@ import Hero from "@/components/business/hero";
 import BusinessStartSection from "@/components/business/startsection";
 import Footer from "@/components/footer";
 import MainHeader from "@/components/main-header";
-import StartSection from "@/components/startsection";
 
 const BusinessPage = () => {
   return (

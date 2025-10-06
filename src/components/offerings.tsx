@@ -6,7 +6,7 @@ const Offerings = () => {
       <div className="container mx-auto">
         <div className="md:mt-50 md:mb-20">
           <div className="flex flex-col items-center text-center px-4">
-            <h1 className="text-6xl md:text-9xl font-mono">We Offer Different Services</h1>
+            <h1 className="text-6xl md:text-[170px] font-mono">We Offer Different Services</h1>
             <p className="w-full md:w-8/12 lg:w-4/12 text-center">Explore all the ways we makes your life easier from seamless transactions to smart payment solutions for personal and business needs</p>
           </div>
         </div>

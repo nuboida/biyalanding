@@ -79,9 +79,9 @@ const MainHeader = () => {
         <div className={`flex-col justify-center items-center tracking-wide text-base ml-auto ${isMenuOpen ? "flex" : "hidden"} lg:flex`}>
           {
             path === "/" && (
-              <span className="bg-black text-white py-2 px-6 font-semibold">
+              <Link href="#startSection" className="bg-black text-white py-2 px-6 font-semibold">
                 Get Started
-              </span>
+              </Link>
             )
           }
           {

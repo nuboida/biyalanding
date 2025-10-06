@@ -62,7 +62,7 @@ const About = () => {
             <div className="flex flex-col w-full md:w-11/12 md:pl-14">
               <h1 className="font-semibold text-2xl my-7">Safe & Secure</h1>
               <p>
-                Every transaction is encrypted with advanced security protocols, ensuring that your business and customers' sensitive information remains safe from fraud and unauthorized access.
+                Every transaction is encrypted with advanced security protocols, ensuring that your business and customers&apos; sensitive information remains safe from fraud and unauthorized access.
               </p>
             </div>
           </div>

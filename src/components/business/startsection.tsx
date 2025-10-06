@@ -3,137 +3,86 @@ import Image from "next/image";
 const BusinessStartSection = () => {
   return (
     <>
-      <section className="mb-5">
-        <div className="bg-[url('/startsectionbg.png')] px-4 sm:px-10 bg-cover py-20 md:py-40">
-          <div className="text-white w-full md:w-8/12 lg:w-5/12 text-center md:text-left">
-            <h1 className="text-6xl md:text-8xl font-mono">Pay The Smart Way</h1>
-            <p>Join our community of Biya users who now pay their bills the stress-free way. Oh yes, there’s no need to go to a physical office or join those queues!</p>
+      <section className="mb-5 bg-[url('/startsectionbg.png')] bg-cover min-h-screen">
+        <div className="container mx-auto mb-20">
+          <div className=" px-4 sm:px-36 py-20 md:pt-40">
+            <div className="text-white w-full md:w-8/12 lg:w-5/12 text-center md:text-left pt-20">
+              <h1 className="text-6xl md:text-9xl font-mono">How it Works</h1>
+            </div>
           </div>
-        </div>
-        <div className="bg-[url('/startsectionimage2.png')] bg-cover min-h-screen px-4 sm:px-6 py-20">
-          <div className="flex flex-col md:flex-row items-center px-4 sm:px-10 md:px-20">
-            <div className="w-full md:w-1/2 flex justify-center">
-              <div className="w-8/12 md:w-6/12">
-                <Image
-                  src={'/startsectionimage.svg'}
-                  alt="image"
-                  height={526}
-                  width={445}
-                  className="w-full h-full"
-                />
+
+          <div className="flex items-center justify-between px-4">
+            <div className="flex flex-col w-1/2">
+              <div className="flex gap-2 mb-10">
+                <div className="bg-white p-3 w-[40px] h-[40px]"></div>
+                <div className="text-white w-1/2">
+                  <h1 className="text-2xl font-semibold">Upload CSV</h1>
+                  <p className="font-extralight">
+                    Easily streamline your recharge process by simply uploading the sheet containing all the phone numbers you wish to recharge. With just a few clicks, you can ensure every number on your list is topped up efficiently and without hassle.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-2 mb-10">
+                <div className="bg-white p-3 w-[40px] h-[40px]"></div>
+                <div className="text-white w-1/2">
+                  <h1 className="text-2xl font-semibold">Process and Pay</h1>
+                  <p className="font-extralight">
+                    Quickly process the entire batch of numbers you’ve uploaded and proceed to make payment seamlessly. This efficient system ensures that all recharges are completed accurately and without delays.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-2 mb-10">
+                <div className="bg-white p-3 w-[40px] h-[40px]"></div>
+                <div className="text-white w-1/2">
+                  <h1 className="text-2xl font-semibold">Instant Recharge</h1>
+                  <p className="font-extralight">
+                    Once payment is confirmed, all numbers in the file will be topped up in a short time.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 mt-10 md:mt-0">
-              <div>
-                <div className="flex gap-4 sm:gap-10 items-center border-b-2 border-white py-2 text-gray-600">
-                  <div>
-                    <svg width="60" height="60" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clipPath="url(#clip0_752_9983)">
-                        <path d="M40 60.47C35.9375 60.47 32.24 59.375 28.905 57.19C25.57 55.0025 23.07 52.19 21.405 48.7525L5 20C1.5625 26.1475 0 33.0225 0 40C0 50 3.255 58.725 9.765 66.1725C16.275 73.62 24.375 78.0725 34.0625 79.5325L45.665 59.455C44.4975 59.7975 42.55 60.47 40 60.47Z" fill="#A1D0E6" fillOpacity="0.7" />
-                        <path d="M27.4225 23.8275C31.1175 20.965 35.3125 20 40 20H74.375C70.8325 13.96 66.015 8.855 59.9225 5.3125C53.8275 1.7725 47.1875 0 40 0C33.75 0 27.915 1.3275 22.5 3.985C17.0825 6.64 12.07 10.5075 8.39746 15.47L20 35C21.145 30.5225 23.7225 26.695 27.4225 23.8275Z" fill="#A1D0E6" />
-                        <path d="M76.9925 25H53.75C57.8125 29.0625 60.47 34.2725 60.47 40C60.4978 44.1823 59.2432 48.2727 56.875 51.72L40.47 80C51.4075 79.895 60.73 75.9375 68.44 68.125C76.145 60.3125 80 50.9375 80 40C80 34.8975 79.14 29.53 76.9925 25Z" fill="#A1D0E6" fillOpacity="0.5" />
-                        <path d="M40 55C48.2843 55 55 48.2843 55 40C55 31.7157 48.2843 25 40 25C31.7157 25 25 31.7157 25 40C25 48.2843 31.7157 55 40 55Z" fill="white" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_752_9983">
-                          <rect width="80" height="80" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
+            <div className="w-1/2">
+              <Image
+                src={"/howItWorksImg.png"}
+                alt="upload csv screen"
+                width={827}
+                height={625}
+                className="w-full h-full"
+              />
+            </div>
+          </div>
+
+
+          <div className="px-4 mt-40 sm:px-8 md:px-16 lg:px-36 bg-[#0D67AA] pb-20 md:pb-30">
+            <div className="bg-primary">
+              <div className="flex flex-col lg:flex-row justify-between items-center">
+                <div className="pb-10 w-full lg:w-1/2 pl-4 sm:pl-10 md:pl-20 text-center lg:text-left">
+                  <div className="w-full lg:w-8/12">
+                    <h1 className="text-5xl md:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
+                    <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
+                    <div className="mt-10">
+                      <span className="bg-accent1 text-white py-3 px-8 font-sans">
+                        Start now
+                      </span>
+                    </div>
                   </div>
-                  <h1 className="text-2xl sm:text-3xl text-white">Browser</h1>
                 </div>
-              </div>
-              <div>
-                <div className="flex gap-4 sm:gap-10 items-center border-b-2 border-white py-2">
-                  <div className="w-[60px] h-[60px]">
+                <div className="w-full lg:w-1/2 flex justify-center lg:justify-end relative">
+                  <div className="w-full lg:w-11/12">
                     <Image
-                      src={"/icons/slack.svg"}
-                      alt="slack icon"
-                      height={80}
-                      width={80}
+                      src={"/businessstartimage.png"}
+                      alt="image"
+                      width={577}
+                      height={480}
                       className="w-full h-full"
                     />
                   </div>
-                  <h1 className="text-2xl sm:text-3xl text-white">Slack</h1>
-                </div>
-              </div>
-              <div>
-                <div className="flex gap-4 sm:gap-10 items-center border-b-2 border-white py-2">
-                  <div className="w-[60px] h-[60px]">
-                    <Image
-                      src={"/icons/messenger.svg"}
-                      alt="messenger icon"
-                      height={80}
-                      width={80}
-                      className="w-full h-full"
-                    />
-                  </div>
-                  <h1 className="text-2xl sm:text-3xl text-white">Messenger</h1>
-                </div>
-              </div>
-              <div>
-                <div className="flex gap-4 sm:gap-10 items-center border-b-2 border-white py-2">
-                  <div className="w-[60px] h-[60px]">
-                    <Image
-                      src={"/icons/skype.svg"}
-                      alt="messenger icon"
-                      height={80}
-                      width={80}
-                      className="w-full h-full"
-                    />
-                  </div>
-                  <h1 className="text-2xl sm:text-3xl text-white">Skype</h1>
-                </div>
-              </div>
-              <div>
-                <div className="flex gap-4 sm:gap-10 items-center border-b-2 border-white py-2">
-                  <div className="w-[60px] h-[60px]">
-                    <Image
-                      src={"/icons/telegram.svg"}
-                      alt="messenger icon"
-                      height={80}
-                      width={80}
-                      className="w-full h-full"
-                    />
-                  </div>
-                  <h1 className="text-2xl sm:text-3xl text-white">Telegram</h1>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="px-4 sm:px-8 md:px-16 lg:px-36 bg-[#0D67AA] pb-20 md:pb-30">
-          <div className="bg-primary">
-            <div className="flex flex-col lg:flex-row justify-between items-center">
-              <div className="pb-10 w-full lg:w-1/2 pl-4 sm:pl-10 md:pl-20 text-center lg:text-left">
-                <div className="w-full lg:w-8/12">
-                  <h1 className="text-5xl md:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
-                  <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
-                  <div className="mt-10">
-                    <span className="bg-accent1 text-white py-3 px-8 font-sans">
-                      Start now
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full lg:w-1/2 flex justify-center lg:justify-end relative">
-                <div className="w-full lg:w-11/12">
-                  <Image
-                    src={"/businessstartimage.png"}
-                    alt="image"
-                    width={577}
-                    height={480}
-                    className="w-full h-full"
-                  />
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
       </section>
     </>
   )

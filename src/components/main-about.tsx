@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import React, {
   ComponentPropsWithRef,
   useCallback,
@@ -157,11 +156,8 @@ type CarouselPropType = {
 }
 
 const MainAbout: React.FC<CarouselPropType> = (props) => {
-  const { slides, options } = props
+  const { options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
-
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi)
 
   const {
     prevBtnDisabled,
