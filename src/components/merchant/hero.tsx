@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="my-25 px-4 sm:px-10 min-h-screen flex items-center">
+    <section className="container mx-auto my-25 px-4 sm:px-10 min-h-screen flex items-center">
       <div className="flex flex-col md:flex-row items-center justify-between h-full">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-6xl lg:text-8xl w-full lg:w-10/12 font-semibold font-mono">GET PAID <span className="text-[#FDA813]">INSTANTLY</span> WITH JUST A CHAT.
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
           <div className="absolute bottom-3 z-10 right-10 hidden lg:block">
             <svg width="271" height="258" viewBox="0 0 271 258" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_109_8756)">
+              <g clipPath="url(#clip0_109_8756)">
                 <path d="M223.859 62.9402L243.772 147.169L113.648 179.818L92.1215 214.683L87.902 215.574L80.6427 187.542L47.1144 195.393L27.1962 111.156L223.859 62.9402Z" fill="#A1D0E6" />
                 <path d="M66.9791 122.725L60.9805 124.134L72.2368 171.727L64.4705 173.539L53.2142 125.946L47.296 127.333L45.8054 121.02L65.4885 116.412L66.9791 122.725Z" fill="white" />
                 <path d="M97.8928 154.998C98.7725 158.745 98.5475 161.785 97.2065 164.101C95.8575 166.422 93.5767 167.958 90.3426 168.712C87.0575 169.48 84.3049 169.123 82.0576 167.638C79.816 166.16 78.2496 163.54 77.362 159.798L69.3989 126.139C68.5186 122.44 68.7586 119.438 70.1076 117.117C71.4486 114.801 73.7667 113.25 77.0439 112.488C80.321 111.727 83.0758 112.07 85.2786 113.527C87.4872 114.992 89.0364 117.589 89.9297 121.338L97.8928 154.998ZM80.6007 119.258C80.0493 118.764 79.3391 118.616 78.4678 118.826C77.5908 119.028 77.0382 119.477 76.7929 120.151C76.5454 120.838 76.5974 121.888 76.931 123.326L85.3624 158.989C85.696 160.426 86.1353 161.412 86.6688 161.931C87.2023 162.45 87.9025 162.618 88.7659 162.414C89.6372 162.204 90.2034 161.756 90.4687 161.044C90.7341 160.331 90.7 159.256 90.3528 157.817L81.9214 122.153C81.5799 120.722 81.1385 119.749 80.5871 119.256L80.6007 119.258Z" fill="white" />

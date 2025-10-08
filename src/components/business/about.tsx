@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="my-20">
+    <section className="container mx-auto my-20">
       <div className="px-4 sm:px-10 mb-10">
         <div className="flex justify-center text-center">
           <h1 className="font-mono text-6xl md:text-9xl">How we help your Business</h1>

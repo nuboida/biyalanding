@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="my-25 px-4 sm:px-10 min-h-screen flex items-center">
+    <section className="container mx-auto my-25 px-4 sm:px-10 min-h-screen flex items-center">
       <div className="flex flex-col md:flex-row items-center justify-between h-full">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-6xl lg:text-9xl font-semibold font-mono">EASY <span className="text-[#FF834E]">BULK RECHARGES</span> ANYTIME, ANYWHERE.
