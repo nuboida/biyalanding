@@ -86,7 +86,7 @@ const MainHeader = () => {
           }
           {
             path === "/merchant" && (
-              <Link href={"#"}>
+              <Link href={"https://merchant.biya.com.ng/login"}>
                 <span className="border text-black py-2 px-6 font-semibold">
                   Log In
                 </span>
@@ -95,7 +95,7 @@ const MainHeader = () => {
           }
           {
             path === "/business" && (
-              <Link href={"#"}>
+              <Link href={"https://business.biya.com.ng/login"}>
                 <span className="border text-black py-2 px-6 font-semibold">
                   Log In
                 </span>

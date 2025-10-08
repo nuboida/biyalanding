@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
             Receive payments effortlessly—no apps, no long processes. Just send a request, let your customer approve it, and get paid instantly through their favourite chat platform.
           </p>
           <div className="mt-10">
-            <span className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
+            <Link href={"https://merchant.biya.com.ng/register"} className="bg-accent1 text-white py-3 px-8 font-sans text-xl">
               Get Started
-            </span>
+            </Link>
           </div>
         </div>
         <div className="w-full md:w-1/2 relative mt-10 md:mt-0">

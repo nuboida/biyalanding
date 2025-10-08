@@ -1,4 +1,25 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
+
 const MainHero = () => {
+  const typedElementRef = useRef(null);
+  const options = {
+    strings: ["RECHARGE", "TRANSFERS", "PAYMENTS"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 2000,
+    loop: false,
+    showCursor: false
+  };
+
+  useEffect(() => {
+    const typed = new Typed(typedElementRef.current, options);
+
+    return () => typed.destroy()
+  }, [typedElementRef]);
+
   return (
     <section className="mt-25 h-screen font-mono font-bold px-4 sm:px-10 relative">
       <div className="absolute top-20 hidden md:block">
@@ -43,8 +64,10 @@ const MainHero = () => {
             </span>
             EASY
           </h1>
-          <div className="bubble -mt-4 sm:-mt-6 md:-mt-8">
-            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white">PAYMENTS</h1>
+          <div className="bubble -mt-4 sm:-mt-6 md:-mt-8 w-[390px] h-[150px]">
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white">
+              <span ref={typedElementRef}>PAYMENTS</span>
+            </h1>
           </div>
           <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-[180px] relative">
             <span className="absolute -bottom-6 -left-16">

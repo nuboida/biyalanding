@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 const MerchantStartSection = () => {
 
@@ -287,9 +288,9 @@ const MerchantStartSection = () => {
                     <h1 className="text-5xl lg:text-6xl 2xl:text-7xl mb-5 font-mono">All your <span className="text-[#17235D]">Payments</span> in one place</h1>
                     <p>With us, payments are no longer a task they’re a conversation. Start chatting today and experience the easiest way to pay.</p>
                     <div className="mt-10">
-                      <span className="bg-accent1 text-white py-3 px-8 font-sans">
+                      <Link href={"https://merchant.biya.com.ng/register"} className="bg-accent1 text-white py-3 px-8 font-sans">
                         Start now
-                      </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
