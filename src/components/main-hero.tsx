@@ -3,16 +3,17 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
+const options = {
+  strings: ["RECHARGE", "TRANSFERS", "PAYMENTS"],
+  typeSpeed: 50,
+  backSpeed: 50,
+  backDelay: 2000,
+  loop: false,
+  showCursor: false
+};
+
 const MainHero = () => {
   const typedElementRef = useRef(null);
-  const options = {
-    strings: ["RECHARGE", "TRANSFERS", "PAYMENTS"],
-    typeSpeed: 50,
-    backSpeed: 50,
-    backDelay: 2000,
-    loop: false,
-    showCursor: false
-  };
 
   useEffect(() => {
     const typed = new Typed(typedElementRef.current, options);
